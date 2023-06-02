@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+h1,
+h2 {
+  color: blueviolet;
+}
+
+.box > p {
+  color: firebrick;
+}
+.box li {
+  color: blue;
+}
+/*
+chain selector start with eleemnt not class or id 
+*/
+li.done {
+  color: seagreen;
+}
+/*
+combination chain > ansestor then chain
+*/
+ul p.done {
+  font-size: 0.5rem;
+}
